@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="container m-4">
+        <h1 class="text-center text-warning m-4">
+            <img class="logo" src="./assets/img/imagepokemon.webp" alt="Image Pokémon">
+        </h1>
+    </header>
+    <main class="container">
+        <div id="displayPoke" class="image-container"></div>
+        <div class="form-group m-3">
+            <input type="text" id="pokeName" class="form-control bg-warning" placeholder="Nom du pokémon">
+            <label for="pokeName">Nom du pokémon</label>
+        </div>
+        <div class="result-container">
+            <p id="result"></p>
+            <p id="score">Score : </p>
+        </div>
+        <div class="button-container">
+            <button id="submitBtn" class="submit-button">Valider</button>
+        </div>
+    </main>
+
+    <script src="./assets/javascript/main.js"></script>
+</body>
+
+</html>
